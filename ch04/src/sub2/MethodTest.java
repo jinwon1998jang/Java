@@ -14,11 +14,11 @@ public class MethodTest { //Java는 파일은 class 구조체로 Method로 구�
 		int y1=	f(1);
 		int y2=	f(2);
 		int y3=	f(3);
-		
+		int y4=	f(4);
 		System.out.println("y1: "+y1);
 		System.out.println("y2: "+y2);
 		System.out.println("y3: "+y3);
-
+		System.out.println("y4: "+y4);
 		//지역변수와 메서드 호출
 		int total1=sum(1, 10);
 		int total2=sum(1, 100);
