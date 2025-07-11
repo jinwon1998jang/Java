@@ -10,7 +10,7 @@ public class MethodTypeTest {
 
 	public static void main(String[] args) {
 		double y1=type1(2.5);
-		double y=type1(3.2);
+		double y2=type1(3.2);
 		double y3=type1(4.0);
 
 		System.out.println("y1: "+y1);
