@@ -15,7 +15,7 @@ public class Test01 {
 		do {
 			count++;
 			System.out.println("--------------------");
-			System.out.println("1~10 사이의 값 입력");
+			System.out.println("1~10 사이의 값 입력:");
 			
 			try {
 				Scanner sc=new Scanner(System.in);
@@ -26,10 +26,10 @@ public class Test01 {
 				}
 			} catch (InputMismatchException e) {
 				System.out.println("숫자를 입력하세요.");
-				e.printStackTrace();
+				continue;
 			}catch (Exception e) {
 				System.out.println(e.getMessage());
-				e.printStackTrace();
+				continue;
 			}
 			if(answer>input) {
 				System.out.println("더 큰수 입력하세요.");

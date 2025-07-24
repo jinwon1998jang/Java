@@ -16,7 +16,7 @@ public class Test07 {
 		}
 	}
 
-	private static Set<Integer> makeLotto() {
+	public static Set<Integer> makeLotto() {
 		Set<Integer> lottoSet = new HashSet<>();
 		
 		for(;;) {

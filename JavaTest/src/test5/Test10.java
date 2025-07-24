@@ -11,11 +11,15 @@ import java.io.*;
 public class Test10 {
 
 	public static void main(String[] args) {
-		String path = "C:\\Users\\ggg\\Desktop\\Result.txt";
+		String path = "C:\\Users\\GGG\\Desktop\\Result.txt";
 
 		try {
 			File file = new File(path);
 			FileWriter fw = new FileWriter(file);
+			//추가모드
+			//new FileWriter(File file, boolean append) 또는 
+			//new FileWriter(String fileName, boolean append)
+			
 			
 			for(int x=2 ; x<=9 ; x++) {
 				fw.write(x+"단\n");
