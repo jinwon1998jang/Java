@@ -36,7 +36,6 @@ public class FilterStreamTest {
 								.filter(num->{
 									
 									if (num>3) {
-										
 										return false;
 									} else {
 
